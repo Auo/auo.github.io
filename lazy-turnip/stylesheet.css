@@ -23,13 +23,19 @@ img {
   width:400px;
 }
 
+#btn-holder {
+  width:245px;
+  margin: 0 auto;
+}
+
 p {
   text-align: justify;
   font-size: 0.8em;
 }
 
 .btn {
-	display:block;
+	display:inline-block;
+  margin: 0px;
 	background-color:#2B2D42;
 	border-radius: 3px;
 	padding:10px;
@@ -37,11 +43,9 @@ p {
 	color:#6E8898;
   width:100px;
   text-align: center;
-	/*font-size: 0.8em;*/
+	font-size: 0.8em;
 	cursor: pointer;
   text-decoration: none;
-  margin:0 auto;
-
 }
 .btn:hover {
 	color:#B46DC7;
